@@ -32,7 +32,3 @@ s
 .secret {
     color: black;
 }
-.secret.scrolled {
-    color: white;
-    transition: background 500ms;
-}

@@ -58,7 +58,7 @@
             <div class="row mt-5">
                 <h2>I'm a Senior at Lowell High School</h2>
             </div>
-            <div class="row mt-xl-5">
+            <div class="row mt-5">
                 <div class="col">
                     <div class="text-center secret" id="secret">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quos ipsa ea itaque ratione? Fuga maxime, rem perferendis dolore quis praesentium. Similique neque enim aut veniam nobis, nulla rem aliquid.</p>
@@ -74,17 +74,6 @@
             $(function () {
                     $(document).scroll(function () {
                         var $nav = $("#mainNavbar");
-                        $nav.toggleClass(
-                            "scrolled",
-                            $(this).scrollTop() > $nav.height()
-                        );
-                    });
-                });
-        </script>
-        <script>
-            $(function () {
-                    $(document).scroll(function () {
-                        var $nav = $("#secret");
                         $nav.toggleClass(
                             "scrolled",
                             $(this).scrollTop() > $nav.height()
