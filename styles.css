@@ -25,6 +25,14 @@ body {
 }
 
 .navbar.scrolled {
-    background: rgb(36, 36, 36);
+    background: rgb(141, 202, 184);
+    transition: background 500ms;
+}
+
+.secret {
+    color: black;
+}
+.secret.scrolled {
+    color: white;
     transition: background 500ms;
 }
