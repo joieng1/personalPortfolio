@@ -1,0 +1,23 @@
+#mainNavbar {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 2rem;
+    font-weight: 10;
+}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+.navbar.scrolled {
+    background: rgb(36, 36, 36);
+    transition: background 500ms;
+}
