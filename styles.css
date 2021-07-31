@@ -29,6 +29,6 @@ s
     transition: background 500ms;
 }
 
-.secret {
-    color: black;
+.title {
+    font-size: 12rem;
 }
