@@ -37,3 +37,10 @@ s
 .footer {
     background-color: #16192c;
 }
+
+@media (max-width: 576px) {
+    .projectList {
+        margin-left: 50px;
+    }
+
+}
