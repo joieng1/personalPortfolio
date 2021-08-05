@@ -1,0 +1,26 @@
+body {
+    background-color: #A7FFF6;
+    color: #5C6F68;
+}
+
+.input {
+    margin: 10px 0px;
+}
+
+.btn {
+    background-color: #A4F9C8;
+    margin: 10px 10px;
+    padding: 5px 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #5C6F68;
+}
+
+.btn:hover {
+    background-color: #95D9C3;
+
+}
+
+.results {
+    font-weight: bold;
+}
