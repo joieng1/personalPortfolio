@@ -25,12 +25,6 @@ body {
     color: black;
 }
 
-.navbar.scrolled {
-    /* background-color: rgb(141, 202, 184); */
-    background-color: #9FB7B9;
-    transition: background 500ms;
-}
-
 .title {
     font-size: 5rem;
 }
