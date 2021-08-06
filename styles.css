@@ -37,6 +37,11 @@ body {
 
 .footer {
     background-color: #16192c;
+    
+}
+
+#indexFooter {
+    visibility: hidden;
 }
 
 .spacer1 {

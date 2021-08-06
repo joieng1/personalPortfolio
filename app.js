@@ -11,12 +11,13 @@ function start() {
     html += '<div class="col">';
     html += '<div class="col text-center mt-5">';
     html += '<h1 class="startTitle">John Ieng</h1>';
-    html += '<button class="btn btn-primary">';
-    html += '<a href="about.html"class="text-decoration-none text-white">Learn More</a></button>';
+    html += '<button class="btn btn-primary btn-lg">';
+    html += '<a href="about.html" class="text-decoration-none text-white">Learn More</a></button>';
     html += '</div></div></div></div>';
     setTimeout(function(){
         document.getElementById("header").innerHTML = "";
     }, 200);
     
+    document.getElementById("indexFooter").style.visibility = "visible";
     document.getElementById("welcomePage").innerHTML = html;
 }
