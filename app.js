@@ -20,7 +20,7 @@ function start() {
     html += '<div class="row text-center">';
     html += '<div class="col">';
     html += '<div class="col text-center mt-5">';
-    html += '<h1>Welcome</h1>';
+    html += '<h1>Welcome to my homepage.</h1>';
     html += '</div></div></div></div>';
     setTimeout(function(){
         document.getElementById("header").innerHTML = "";
