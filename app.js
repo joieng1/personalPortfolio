@@ -14,10 +14,8 @@ function start() {
     html += '<button class="btn btn-primary btn-lg">';
     html += '<a href="about.html" class="text-decoration-none text-white">Learn More</a></button>';
     html += '</div></div></div></div>';
-    setTimeout(function(){
-        document.getElementById("header").innerHTML = "";
-    }, 200);
     
+    document.getElementById("header").innerHTML = "";
     document.getElementById("indexFooter").style.visibility = "visible";
     document.getElementById("welcomePage").innerHTML = html;
 }
