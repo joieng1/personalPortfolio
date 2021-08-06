@@ -1,10 +1,14 @@
 "use strict";
 
 
-$(document).scroll(function () {
-    let $nav = $("#mainNavbar");
-    $nav.toggleClass(
-        "scrolled",
-        $(this).scrollTop() > $nav.height()
-    );
-});
+// $(document).scroll(function () {
+//     let $nav = $("#mainNavbar");
+//     $nav.toggleClass(
+//         "scrolled",
+//         $(this).scrollTop() > $nav.height()
+//     );
+// });
+
+// function scroll() {
+
+// }

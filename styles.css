@@ -6,6 +6,7 @@ body {
 #mainNavbar {
     font-size: 1rem;
     font-weight: 100;
+    background-color: #9FB7B9;
 }
 
 #mainNavbar .navbar-brand {
